@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Verification Mail</title>
+    <title>Contact Mail</title>
 </head>
 
 <body>
-    <h1>WMSFO admin verification code for ${name}</h1>
-    <p>please enter this code in admin panel prompt</p>
+    <h1>You have a new message from ${name}</h1>
     <p>${message}</p>
+    <a href="mailto:${email}">reply</a>
+    <p>${rawLink}</p>
 </body>
 
 </html>
